@@ -15,3 +15,5 @@ class HypebeastItem(scrapy.Item):
     title = scrapy.Field()
     views = scrapy.Field()
     time = scrapy.Field()
+    sneaker = scrapy.Field()
+    votes = scrapy.Field()
